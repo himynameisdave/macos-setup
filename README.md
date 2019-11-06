@@ -35,6 +35,7 @@ When setting up a new MacBook, here is roughly the series of steps / application
 1. [Insomnia](https://insomnia.rest/) - Tool for testing APIs (REST & GraphQL).
 1. [Slack](https://slack.com/downloads/mac) - Slack, for work and fun.
 1. [Pock](https://pock.dev/) - App for customizing the macOS Touch Bar.
+1. [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12) - Keep your Mac awake, on demand.
 
 
 ## Dotfiles
