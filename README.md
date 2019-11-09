@@ -19,6 +19,10 @@ When setting up a new MacBook, here is roughly the series of steps / application
 
 1. Disable "Automatically rearrange Spaces based on most recent use"
 
+### Sound
+
+1. Enable "Play feedback when volume is changed"
+
 ### a11y
 
 1. Under "Zoom", enable "Use scroll gesture with modifier keys to zoom", setting the key to ^Control.
@@ -36,6 +40,30 @@ When setting up a new MacBook, here is roughly the series of steps / application
 1. [Slack](https://slack.com/downloads/mac) - Slack, for work and fun.
 1. [Pock](https://pock.dev/) - App for customizing the macOS Touch Bar.
 1. [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12) - Keep your Mac awake, on demand.
+1. [GPG Tools](https://gpgtools.org/) - Manager for GPG keys.
+
+## Homebrew & Command Line Tools
+
+[Homebrew](https://brew.sh/) is a must-have for any macOS system. Install it using the following command, then let's install some stuff:
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+1. `brew install ack` - [`ack`](https://beyondgrep.com/) is like `grep`, but much nicer.
+1. `sudo easy_install Pygments` - [`Pygments`](https://github.com/dagwieers/pygments) Better syntax highlighting, for [this command](https://github.com/himynameisdave/dotfiles/blob/2ec0e962f276afd59e3329aab75bc7724e585db5/.aliases#L12).
+
+## Node
+
+Gotta have [NodeJS](https://nodejs.org/en/)! The best way to install and manage it is using Node Version Manager (`nvm`). Install it like so:
+
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
+```
+
+You can then proceed to install Node. Run `nvm ls-remote` to list remote versions of node versions.
+
+_Note: After installing node, all future versions should be installed using [this commamnd](https://github.com/himynameisdave/dotfiles/blob/2ec0e962f276afd59e3329aab75bc7724e585db5/.functions#L45-L51). This will install the new version, **and** all the globally installed packages._
 
 
 ## Dotfiles
@@ -51,7 +79,7 @@ Please check out this [dotfiles](https://github.com/himynameisdave/dotfiles) rep
 1. [Atom One Dark Theme](https://github.com/akamud/vscode-theme-onedark) - Nice theme.
 1. [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme) - Better icons, with support for oodles of extensions.
 1. [GitLens](https://github.com/eamodio/vscode-gitlens) - Adds lots of built-in git goodies, such as viewing who last edited a line.
-1. [ES7 React/Redux Snippets](https://github.com/dsznajder/vscode-es7-javascript-react-snippets)
+1. [ES7 React/Redux Snippets](https://github.com/dsznajder/vscode-es7-javascript-react-snippets) - _Some_ good snippets for React & Redux. Currently looking for a better replacement.
 
 ### Key Mappings
 
