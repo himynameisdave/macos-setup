@@ -41,6 +41,7 @@ When setting up a new MacBook, here is roughly the series of steps / application
 1. [Pock](https://pock.dev/) - App for customizing the macOS Touch Bar.
 1. [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12) - Keep your Mac awake, on demand.
 1. [GPG Tools](https://gpgtools.org/) - Manager for GPG keys.
+1. [NordVPN](https://apps.apple.com/us/app/vpn-by-nordvpn-web-security/id1116599239?mt=12) - A nice VPN.
 
 ## Homebrew & Command Line Tools
 
