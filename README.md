@@ -80,6 +80,10 @@ Please check out this [dotfiles](https://github.com/himynameisdave/dotfiles) rep
 1. [Atom One Dark Theme](https://github.com/akamud/vscode-theme-onedark) - Nice theme.
 1. [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme) - Better icons, with support for oodles of extensions.
 1. [GitLens](https://github.com/eamodio/vscode-gitlens) - Adds lots of built-in git goodies, such as viewing who last edited a line.
+1. [Bracket Pair Colorizer](https://github.com/CoenraadS/BracketPair) - Makes matching brackets have the same color, making code blocks easier to see.
+1. [ESLint](https://github.com/Microsoft/vscode-eslint) - ESLint in VSCode.
+1. [npm Intellisense](https://github.com/ChristianKohler/NpmIntellisense) - Autocompletes npm modules in import statements.
+1. [Svelte](https://github.com/UnwrittenFun/svelte-vscode) - Adds Svelte language support.
 1. [ES7 React/Redux Snippets](https://github.com/dsznajder/vscode-es7-javascript-react-snippets) - _Some_ good snippets for React & Redux. Currently looking for a better replacement.
 
 ### Key Mappings
