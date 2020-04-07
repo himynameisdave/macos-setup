@@ -42,6 +42,8 @@ When setting up a new MacBook, here is roughly the series of steps / application
 1. [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12) - Keep your Mac awake, on demand.
 1. [GPG Tools](https://gpgtools.org/) - Manager for GPG keys.
 1. [NordVPN](https://apps.apple.com/us/app/vpn-by-nordvpn-web-security/id1116599239?mt=12) - A nice VPN.
+1. [Signal](https://signal.org/download/) - For chatting with pals.
+1. [Memory Diag](https://apps.apple.com/us/app/memory-diag/id748212890?mt=12) - Helps with memory management.
 
 ## Homebrew & Command Line Tools
 
@@ -84,7 +86,14 @@ Please check out this [dotfiles](https://github.com/himynameisdave/dotfiles) rep
 1. [ESLint](https://github.com/Microsoft/vscode-eslint) - ESLint in VSCode.
 1. [npm Intellisense](https://github.com/ChristianKohler/NpmIntellisense) - Autocompletes npm modules in import statements.
 1. [Svelte](https://github.com/UnwrittenFun/svelte-vscode) - Adds Svelte language support.
+1. [Svelte Intellisense](https://github.com/ArdenIvanov/svelte-intellisense) - Adds Svelte intellisense support.
 1. [ES7 React/Redux Snippets](https://github.com/dsznajder/vscode-es7-javascript-react-snippets) - _Some_ good snippets for React & Redux. Currently looking for a better replacement.
+1. [Go](https://github.com/Microsoft/vscode-go) - Adds language support for the [Go language](https://golang.org/) to VS Code.
+1. [Chrome Debugger](https://github.com/Microsoft/vscode-chrome-debug) - Debug code running in Google Chrome from VS Code.
+1. [Rainbow CSV](https://github.com/mechatroner/vscode_rainbow_csv) - Make CSVs pretty again!
+1. [Sort JS Object Keys](https://github.com/SBeator/sort-js-object-keys) - Alphabetize JS object keys.
+1. [Markdown Lint](https://github.com/DavidAnson/vscode-markdownlint) - Lint markdown files for common pitfalls.
+1. [Indent 4-to-2](https://github.com/compulim/vscode-indent-4to2) - Simplify converting indentation of tab or 4 spaces into 2 spaces.
 
 ### Key Mappings
 
@@ -93,6 +102,13 @@ There are a few key mappings which I prefer to set when setting up VS Code. Hit 
 - **Move Line Down** - `^` + `⌥` + `↓`
 - **Move Line Up** - `^` + `⌥` + `↑`
 
+### Font
+
+Use the [Cascadia font](https://github.com/Microsoft/Cascadia-Code) from Microsoft. Download [this `.ttf` file](https://github.com/microsoft/cascadia-code/releases/download/v1911.21/CascadiaMonoPL.ttf), install the font on your Mac by opening the file, and then in VSCode open up the settings UI and add the following as the `font-family`:
+
+```
+'Cascadia Mono PL', Menlo, Monaco, 'Courier New', monospace
+```
 
 ## iTerm
 
