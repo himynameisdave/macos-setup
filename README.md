@@ -55,6 +55,7 @@ When setting up a new MacBook, here is roughly the series of steps / application
 
 1. `brew install ack` - [`ack`](https://beyondgrep.com/) is like `grep`, but much nicer.
 1. `sudo easy_install Pygments` - [`Pygments`](https://github.com/dagwieers/pygments) Better syntax highlighting, for [this command](https://github.com/himynameisdave/dotfiles/blob/2ec0e962f276afd59e3329aab75bc7724e585db5/.aliases#L12).
+1. `brew install tree` - [`tree`](https://osxdaily.com/2016/09/09/view-folder-tree-terminal-mac-os-tree-equivalent/) is a nice tree view for the current directory.
 
 ## Node
 
