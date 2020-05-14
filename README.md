@@ -69,6 +69,13 @@ You can then proceed to install Node. Run `nvm ls-remote` to list remote version
 
 _Note: After installing node, all future versions should be installed using [this commamnd](https://github.com/himynameisdave/dotfiles/blob/2ec0e962f276afd59e3329aab75bc7724e585db5/.functions#L45-L51). This will install the new version, **and** all the globally installed packages._
 
+### Deno
+
+Now that [Deno](https://deno.land/) is stable/v1, install it so that we can use it for new projects moving forward.
+
+```
+brew install deno
+```
 
 ## Dotfiles
 
