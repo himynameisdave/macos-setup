@@ -32,7 +32,8 @@ When setting up a new MacBook, here is roughly the series of steps / application
 
 ## Applications
 
-1. [Spectacle](https://www.spectacleapp.com/) - Vital app for moving/resizing windows around the screen.
+1. [~Spectacle~](https://www.spectacleapp.com/) - _Deprecated_
+    - [Rectangle](https://rectangleapp.com/) - Vital app for moving/resizing windows around the screen.
 1. [Spark](https://sparkmailapp.com/) - Sexy email client.
 1. [VS Code](https://code.visualstudio.com/download) - Prefered code editor.
 1. [iTerm2](https://iterm2.com/) - Prefered terminal client.
