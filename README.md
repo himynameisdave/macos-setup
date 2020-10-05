@@ -7,7 +7,6 @@
 
 When setting up a new MacBook, here is roughly the series of steps / applications I download in order to get the system in an optimal state for me to develop properly.
 
-
 ## Settings
 
 ### Trackpad
@@ -45,6 +44,7 @@ When setting up a new MacBook, here is roughly the series of steps / application
 1. [NordVPN](https://apps.apple.com/us/app/vpn-by-nordvpn-web-security/id1116599239?mt=12) - A nice VPN.
 1. [Signal](https://signal.org/download/) - For chatting with pals.
 1. [Memory Diag](https://apps.apple.com/us/app/memory-diag/id748212890?mt=12) - Helps with memory management.
+1. [Monitor Control](https://github.com/MonitorControl/MonitorControl#-monitorcontrol-) - Control external monitor brightness, contrast or volume via keyboard native keys.
 
 ## Homebrew & Command Line Tools
 
