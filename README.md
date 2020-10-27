@@ -80,8 +80,17 @@ brew install deno
 
 ## Dotfiles
 
-Please check out this [dotfiles](https://github.com/himynameisdave/dotfiles) repository for info on the dotfiles. It includes a `.profile`, along with various `.alises` and `.functions` which I usually use.
+Please check out this [dotfiles](https://github.com/himynameisdave/dotfiles) repository for info on the dotfiles. It includes a `.profile`, along with various `.alises` and `.functions` which I usually use. It also includes the [`starship`](https://starship.rs/) configuration I use (see below).
 
+### Starship
+
+Install [`starship`](https://starship.rs/).
+
+```bash
+brew install starship
+```
+
+This is a handy terminal tool with some neat features. It has its own `starship.toml` config file that you can find in [my dotfiles](https://github.com/himynameisdave/dotfiles).
 
 ## VSCode
 
@@ -121,7 +130,7 @@ Use the [Cascadia font](https://github.com/Microsoft/Cascadia-Code) from Microso
 
 ## iTerm
 
-### Colors
+### Colours
 
 Use the [provided colour pallet](https://github.com/himynameisdave/macos-setup/blob/master/himynameisdave.itermcolors). You can add them under **Preferences > Profiles > Colors > Color Presets > Import**.
 
@@ -131,6 +140,10 @@ Under **Preferences > Profiles > Keys**, alter the following two key combos:
 
 - `⌥` + ⬅️ - Send Escape Sequence `b`
 - `⌥` + ➡ - Send Escape Sequence `f`
+
+### Fonts
+
+In order to use [`starship`](https://starship.rs/), you'll need a [Nerd Font](https://www.nerdfonts.com/) that supports the glyphs to be used in the terminal. I prefer the [`Cascadia` variant](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/CascadiaCode.zip). You can add it to iTerm via **Profiles > Text**.
 
 ---
 
